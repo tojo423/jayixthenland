@@ -44,5 +44,7 @@ function _clickDetector_MouseClick()
 	end
 	
 	_movDir = _movDir * -1;
+	
+	_isMoving = false;
 end
 _clickDetector.MouseClick:Connect(_clickDetector_MouseClick);
